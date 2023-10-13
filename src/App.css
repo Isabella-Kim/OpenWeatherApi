@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "SF_HambakSnow";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.wrap {
+  height: 100vh;
+}
+body {
+  background: url(../public/iceCream.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.wrapWeather {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(2px);
+}
+.WeatherBox {
+  position: relative;
+  border-radius: 20px;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+}
+.WeatherBox h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: auto;
+  padding: 2rem;
+  color: #333;
+  font-family: "SF_HambakSnow";
+}
+.WeatherBox p {
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  margin: auto;
+  padding: 0.5rem;
+  color: #333;
+  font-family: "SF_HambakSnow";
+}
+.weatherReport {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  margin: auto;
+  text-align: left;
+  padding: 2rem;
+}
+.weatherReport h3 {
+  line-height: 30px;
+}
+.weatherReport h3:first-child {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.WeatherButton {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+.WeatherButton button {
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(255, 115, 0);
+  color: #fff;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0.2rem;
+}
+.WeatherButton button:hover {
+  background-color: rgb(255, 210, 64);
+  color: #333;
+}
+/* pacman */
+.pacman {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
